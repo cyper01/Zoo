@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9f39b7a08f0f4e09bd036371cd45fdfa" Name="Diagram1">
+        <EntityTypeShape EntityType="AnimalShopModel.Order" Width="1.5" PointX="5.25" PointY="1.375" />
+        <EntityTypeShape EntityType="AnimalShopModel.Product" Width="1.5" PointX="7.5" PointY="1" />
+        <EntityTypeShape EntityType="AnimalShopModel.Role" Width="1.5" PointX="0.75" PointY="1.75" />
+        <EntityTypeShape EntityType="AnimalShopModel.User" Width="1.5" PointX="3" PointY="1.125" />
+        <AssociationConnector Association="AnimalShopModel.FK__Order__UserID__3E52440B" />
+        <AssociationConnector Association="AnimalShopModel.FK__User__UserRole__412EB0B6" />
+        <AssociationConnector Association="AnimalShopModel.OrderProduct" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
